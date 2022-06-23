@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+body {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    109.6deg,
+    rgb(204, 228, 247) 11.2%,
+    rgb(237, 246, 250) 100.2%
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-app {
+  border: 1px solid #70a9ff;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  margin-top: 40px;
+  max-width: 50%;
+  padding: 40px;
+  background-color: #22577e;
+  line-height: 1.5;
+  text-align: left;
+  display: block;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  background: #f9f7fe;
+  border: none;
+  padding: 15px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search,
+.current {
+  padding: 15px 20px;
+  border-radius: 6px;
+  height: 50px;
+  line-height: 20px;
+  font-weight: 500;
 }

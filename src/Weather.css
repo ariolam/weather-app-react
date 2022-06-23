@@ -1,0 +1,56 @@
+.weatherInfo {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.temperatureContainer {
+  font-size: 40px;
+}
+.units {
+  font-size: 18px;
+  position: relative;
+  line-height: 1;
+  top: -27px;
+  color: aliceblue;
+}
+#celsius-link {
+  color: aliceblue;
+  cursor: default;
+  text-decoration: none;
+}
+h1 {
+  font-size: 40px;
+}
+strong {
+  color: #faffaf;
+}
+#description {
+  text-transform: capitalize;
+}
+.weatherForecast {
+  margin-bottom: 40px;
+}
+.weatherForecastDay {
+  border: 1px solid #70a9ff;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  background-color: #70a9ff;
+  text-align: center;
+  width: 100%;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+.mainIcon {
+  color: #faffaf;
+}
+.sun {
+  color: #faffaf;
+  font-size: 32px;
+}
+.fa-sun {
+  color: #faffaf;
+}
+.cloud {
+  color: aliceblue;
+  font-size: 32px;
+}
