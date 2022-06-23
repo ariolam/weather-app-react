@@ -62,6 +62,22 @@ export default function Weather() {
           </div>
         </div>
         <div className="weatherForecast"></div>
+        This project was coded by{" "}
+        <a
+          href="https://glittery-boba-1babca.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Ariola Markou,
+        </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/ariolam/weather-app-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced.
+        </a>
       </div>
     </div>
   );
